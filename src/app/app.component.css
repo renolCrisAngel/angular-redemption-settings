@@ -1,0 +1,395 @@
+.flex-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 1527px;
+    height: 660px;
+    background-color: white;
+}
+
+.redemption-container {
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+}
+
+
+.redeem-void-container {
+    display: flex;
+    flex-flow: row;
+}
+
+.redeem-border {
+    border: 2px solid gray;
+    border-radius: 8px;
+    height: 150px;
+    width: 590px;
+    margin-left: 40px;
+}
+
+.void-border {
+    border: 2px solid gray;
+    border-radius: 8px;
+    height: 140px;
+    width: 590px;
+    margin-left: 80px;
+}
+
+
+.borrow-comp-container {
+    display: flex;
+    flex-flow: row;
+    margin-top: 20px;
+}
+
+.borrow-border {
+    border: 2px solid gray;
+    border-radius: 8px;
+    height: 140px;
+    width: 590px;
+    margin-left: 40px;
+}
+
+.comp-border {
+    border: 2px solid gray;
+    border-radius: 8px;
+    height: 140px;
+    width: 590px;
+    margin-left: 80px;
+}
+
+.voucher-ticket-container {
+    display: flex;
+    flex-flow: row;
+    margin-top: 20px;
+}
+
+.voucher-border {
+    border: 2px solid gray;
+    border-radius: 8px;
+    height: 140px;
+    width: 590px;
+    margin-left: 40px;
+}
+
+.ticket-border {
+    border: 2px solid gray;
+    border-radius: 8px;
+    height: 140px;
+    width: 590px;
+    margin-left: 80px;
+}
+
+.two-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.save-settings {
+    background-color: #60cc65;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 23px;
+    margin: 9px;
+    cursor: pointer;
+    width: 250px;
+    height: 45px;
+}
+
+.save-settings:hover {
+    background-color: #F7F7F7;
+    color: #60cc65;
+}
+
+.cancel {
+    background-color: #F7F7F7;
+    border: none;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 23px;
+    margin: 9px;
+    cursor: pointer;
+    width: 250px;
+    height: 45px;
+}
+
+.redeem-title {
+    border-bottom: 2px solid grey;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.redeem-labels {
+    margin-top: 10px;
+}
+
+.redeemlevel3title {
+    margin-left: 21px;
+}
+
+.redeemlevel2title {
+    margin-left: 83px;
+}
+
+.redeemlevel1title {
+    margin-left: 85px;
+}
+
+.redeem-input-container {
+    margin-top: 5px;
+}
+
+.redeemlevel3input {
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.redeemlevel2input {
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.redeemlevel1input {
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.borrow-title {
+    border-bottom: 2px solid grey;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.borrow-labels {
+    margin-top: 10px;
+}
+
+.borrowlevel3title {
+    margin-left: 21px;
+}
+
+.borrowlevel2title {
+    margin-left: 83px;
+}
+
+.borrowlevel1title {
+    margin-left: 85px;
+}
+
+.borrow-input-container {
+    margin-top: 5px;
+}
+
+.borrowlevel3input {
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.borrowlevel2input {
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.borrowlevel1input {
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.voucher-title {
+    border-bottom: 2px solid grey;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.voucher-labels {
+    margin-top: 10px;
+}
+
+.voucherlevel3title {
+    margin-left: 21px;
+}
+
+.voucherlevel2title {
+    margin-left: 83px;
+}
+
+.voucherlevel1title {
+    margin-left: 85px;
+}
+
+.voucher-input-container {
+    margin-top: 5px;
+}
+
+.voucherlevel3input {
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.voucherlevel2input {
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.voucherlevel1input {
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.void-title {
+    border-bottom: 2px solid grey;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.void-labels {
+    margin-top: 10px;
+}
+
+.voidlevel3title {
+    margin-left: 21px;
+}
+
+.voidlevel2title {
+    margin-left: 83px;
+}
+
+.voidlevel1title {
+    margin-left: 85px;
+}
+
+.void-input-container {
+    margin-top: 5px;
+}
+
+.voidlevel3input {
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.voidlevel2input {
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.voidlevel1input {
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.comp-title {
+    border-bottom: 2px solid grey;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.comp-labels {
+    margin-top: 10px;
+}
+
+.complevel3title {
+    margin-left: 21px;
+}
+
+.complevel2title {
+    margin-left: 83px;
+}
+
+.complevel1title {
+    margin-left: 85px;
+}
+
+.comp-input-container {
+    margin-top: 5px;
+}
+
+.complevel3input {
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.complevel2input {
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.complevel1input {
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.ticket-title {
+    border-bottom: 2px solid grey;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.ticket-labels {
+    margin-top: 10px;
+}
+
+.ticketlevel3title {
+    margin-left: 21px;
+}
+
+.ticketlevel2title {
+    margin-left: 83px;
+}
+
+.ticketlevel1title {
+    margin-left: 85px;
+}
+
+.ticket-input-container {
+    margin-top: 5px;
+}
+
+.ticketlevel3input {
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.ticketlevel2input {
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.ticketlevel1input {
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+/* @media only screen and (max-width: 1527px) {
+    
+    
+}     */
+
+
+/* For mobile phones: */
+/* [class*="col-"] {
+    width: 100%;
+} */
