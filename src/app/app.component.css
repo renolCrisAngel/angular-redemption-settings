@@ -129,15 +129,15 @@
     margin-top: 10px;
 }
 
-.redeemlevel3title {
+.labellevel3title {
     margin-left: 21px;
 }
 
-.redeemlevel2title {
+.labellevel2title {
     margin-left: 83px;
 }
 
-.redeemlevel1title {
+.labellevel1title {
     margin-left: 85px;
 }
 
@@ -145,19 +145,19 @@
     margin-top: 5px;
 }
 
-.redeemlevel3input {
+.inputlevel3input {
     margin-left: 15px;
     height: 35px;
     border-radius: 10px;
 }
 
-.redeemlevel2input {
+.inputlevel2input {
     margin-left: 15px;
     height: 35px;
     border-radius: 10px;
 }
 
-.redeemlevel1input {
+.inputlevel1input {
     margin-left: 15px;
     height: 35px;
     border-radius: 10px;
@@ -173,38 +173,8 @@
     margin-top: 10px;
 }
 
-.borrowlevel3title {
-    margin-left: 21px;
-}
-
-.borrowlevel2title {
-    margin-left: 83px;
-}
-
-.borrowlevel1title {
-    margin-left: 85px;
-}
-
 .borrow-input-container {
     margin-top: 5px;
-}
-
-.borrowlevel3input {
-    margin-left: 15px;
-    height: 35px;
-    border-radius: 10px;
-}
-
-.borrowlevel2input {
-    margin-left: 15px;
-    height: 35px;
-    border-radius: 10px;
-}
-
-.borrowlevel1input {
-    margin-left: 15px;
-    height: 35px;
-    border-radius: 10px;
 }
 
 .voucher-title {
@@ -217,38 +187,8 @@
     margin-top: 10px;
 }
 
-.voucherlevel3title {
-    margin-left: 21px;
-}
-
-.voucherlevel2title {
-    margin-left: 83px;
-}
-
-.voucherlevel1title {
-    margin-left: 85px;
-}
-
 .voucher-input-container {
     margin-top: 5px;
-}
-
-.voucherlevel3input {
-    margin-left: 15px;
-    height: 35px;
-    border-radius: 10px;
-}
-
-.voucherlevel2input {
-    margin-left: 15px;
-    height: 35px;
-    border-radius: 10px;
-}
-
-.voucherlevel1input {
-    margin-left: 15px;
-    height: 35px;
-    border-radius: 10px;
 }
 
 .void-title {
@@ -261,42 +201,12 @@
     margin-top: 10px;
 }
 
-.voidlevel3title {
-    margin-left: 21px;
-}
-
-.voidlevel2title {
-    margin-left: 83px;
-}
-
-.voidlevel1title {
-    margin-left: 85px;
-}
-
 .void-input-container {
     margin-top: 5px;
 }
 
-.voidlevel3input {
-    margin-left: 15px;
-    height: 35px;
-    border-radius: 10px;
-}
-
-.voidlevel2input {
-    margin-left: 15px;
-    height: 35px;
-    border-radius: 10px;
-}
-
-.voidlevel1input {
-    margin-left: 15px;
-    height: 35px;
-    border-radius: 10px;
-}
-
 .comp-title {
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #e9e6e6;
     height: 25px;
     margin-left: 20px;
 }
@@ -305,38 +215,8 @@
     margin-top: 10px;
 }
 
-.complevel3title {
-    margin-left: 21px;
-}
-
-.complevel2title {
-    margin-left: 83px;
-}
-
-.complevel1title {
-    margin-left: 85px;
-}
-
 .comp-input-container {
     margin-top: 5px;
-}
-
-.complevel3input {
-    margin-left: 15px;
-    height: 35px;
-    border-radius: 10px;
-}
-
-.complevel2input {
-    margin-left: 15px;
-    height: 35px;
-    border-radius: 10px;
-}
-
-.complevel1input {
-    margin-left: 15px;
-    height: 35px;
-    border-radius: 10px;
 }
 
 .ticket-title {
@@ -349,44 +229,169 @@
     margin-top: 10px;
 }
 
-.ticketlevel3title {
-    margin-left: 21px;
-}
-
-.ticketlevel2title {
-    margin-left: 83px;
-}
-
-.ticketlevel1title {
-    margin-left: 85px;
-}
-
 .ticket-input-container {
     margin-top: 5px;
 }
 
-.ticketlevel3input {
-    margin-left: 15px;
-    height: 35px;
-    border-radius: 10px;
-}
-
-.ticketlevel2input {
-    margin-left: 15px;
-    height: 35px;
-    border-radius: 10px;
-}
-
-.ticketlevel1input {
-    margin-left: 15px;
-    height: 35px;
-    border-radius: 10px;
-}
-
-/* @media only screen and (max-width: 1527px) {
+@media only screen and (max-width: 500px) {
     
+ .flex-container{
+    width: 100%;
+} 
+
+.redemption-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.redeem-void-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.redemption-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 395px;
+}
+
+.redeem-border {
     
-}     */
+    border: 2px solid gray;
+    border-radius: 8px;
+    height: 135px;
+    width: 78%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.labellevel3title{
+    margin-left: 21px;
+    font-size: 15px;
+}
+
+.labellevel2title {
+    margin-left: 17px;
+    font-size: 15px;
+}
+
+.labellevel1title {
+    margin-left: 18px;
+    font-size: 15px;
+}
+
+.inputlevel3input{
+    margin-left: 15px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.inputlevel2input {
+    margin-left: 15px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.inputlevel1input {
+    margin-left: 15px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.void-border {
+    border: 2px solid gray;
+    border-radius: 8px;
+    height: 135px;
+    width: 78%;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+
+.borrow-comp-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.borrow-border {
+    border: 2px solid gray;
+    border-radius: 8px;
+    height: 135px;
+    width: 78%;
+    margin-left: 0px;
+    margin-top: -5px;
+}
+
+.comp-border {
+    border: 2px solid gray;
+    border-radius: 8px;
+    height: 135px;
+    width: 78%;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+
+.voucher-ticket-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.voucher-border {
+    border: 2px solid gray;
+    border-radius: 8px;
+    height: 135px;
+    width: 78%;
+    margin-left: 0px;
+    margin-top: -5px;
+}
+
+.ticket-border {
+    border: 2px solid gray;
+    border-radius: 8px;
+    height: 135px;
+    width: 78%;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+
+.two-buttons {
+    margin-top: 10px;
+    margin-left: -100px;
+}
+
+.save-settings {
+    background-color: #60cc65;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 9px;
+    cursor: pointer;
+    width: 175px;
+    height: 45px;
+    
+}
+
+.cancel {
+    background-color: #F7F7F7;
+    border: none;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 9px;
+    cursor: pointer;
+    width: 175px;
+    height: 45px;
+}
+
+
+}    
 
 
 /* For mobile phones: */
