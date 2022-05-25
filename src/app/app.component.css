@@ -20,22 +20,55 @@
 }
 
 .redeem-border {
-    border: 2px solid gray;
+    border: 2px solid #e9e6e6;
     border-radius: 8px;
     height: 150px;
     width: 590px;
     margin-left: 40px;
 }
 
+.redeem-container {
+    display: flex;
+    flex-flow: row;
+}
+
+.redeem-container3{
+    margin-top: 15px;
+}
+
+.redeem-container2{
+    margin-top: 15px;
+}
+
+.redeem-container1{
+    margin-top: 15px;
+}
+
 .void-border {
-    border: 2px solid gray;
+    border: 2px solid #e9e6e6;
     border-radius: 8px;
-    height: 140px;
+    height: 150px;
     width: 590px;
     margin-left: 80px;
 }
 
+.void-container {
+    display: flex;
+    flex-flow: row;
+}
 
+.void-container3{
+    margin-top: 15px;
+}
+    
+.void-container2{
+    margin-top: 15px;
+}
+    
+.void-container1{
+    margin-top: 15px;
+}
+    
 .borrow-comp-container {
     display: flex;
     flex-flow: row;
@@ -43,19 +76,58 @@
 }
 
 .borrow-border {
-    border: 2px solid gray;
+    border: 2px solid #e9e6e6;
     border-radius: 8px;
-    height: 140px;
+    height: 150px;
     width: 590px;
     margin-left: 40px;
 }
 
+.borrow-container {
+    display: flex;
+    flex-flow: row;
+}
+
+.borrow-container3{
+    margin-top: 15px;
+}
+    
+.borrow-container2{
+    margin-top: 15px;
+}
+    
+.borrow-container1{
+    margin-top: 15px;
+}
+
 .comp-border {
-    border: 2px solid gray;
+    border: 2px solid #e9e6e6;
     border-radius: 8px;
-    height: 140px;
+    height: 150px;
     width: 590px;
     margin-left: 80px;
+}
+
+.comp-container {
+    display: flex;
+    flex-flow: row;
+}
+
+.comp-container {
+    display: flex;
+    flex-flow: row;
+}
+
+.comp-container3{
+    margin-top: 15px;
+}
+    
+.comp-container2{
+    margin-top: 15px;
+}
+    
+.comp-container1{
+    margin-top: 15px;
 }
 
 .voucher-ticket-container {
@@ -65,19 +137,53 @@
 }
 
 .voucher-border {
-    border: 2px solid gray;
+    border: 2px solid #e9e6e6;
     border-radius: 8px;
-    height: 140px;
+    height: 150px;
     width: 590px;
     margin-left: 40px;
 }
 
+.voucher-container {
+    display: flex;
+    flex-flow: row;
+}
+
+.voucher-container3{
+    margin-top: 15px;
+}
+    
+.voucher-container2{
+    margin-top: 15px;
+}
+    
+.voucher-container1{
+    margin-top: 15px;
+}
+
 .ticket-border {
-    border: 2px solid gray;
+    border: 2px solid #e9e6e6;
     border-radius: 8px;
-    height: 140px;
+    height: 150px;
     width: 590px;
     margin-left: 80px;
+}
+
+.ticket-container {
+    display: flex;
+    flex-flow: row;
+}
+
+.ticket-container3{
+    margin-top: 15px;
+}
+    
+.ticket-container2{
+    margin-top: 15px;
+}
+    
+.ticket-container1{
+    margin-top: 15px;
 }
 
 .two-buttons {
@@ -86,7 +192,7 @@
     margin-top: 20px;
 }
 
-.save-settings {
+.save-settings { 
     background-color: #60cc65;
     border: none;
     color: white;
@@ -120,7 +226,7 @@
 }
 
 .redeem-title {
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #e9e6e6;
     height: 25px;
     margin-left: 20px;
 }
@@ -134,11 +240,11 @@
 }
 
 .labellevel2title {
-    margin-left: 83px;
+    margin-left: 23px;
 }
 
 .labellevel1title {
-    margin-left: 85px;
+    margin-left: 23px;
 }
 
 .redeem-input-container {
@@ -149,22 +255,25 @@
     margin-left: 15px;
     height: 35px;
     border-radius: 10px;
+    margin-top: 5px;
 }
 
 .inputlevel2input {
     margin-left: 15px;
     height: 35px;
     border-radius: 10px;
+    margin-top: 5px;
 }
 
 .inputlevel1input {
     margin-left: 15px;
     height: 35px;
     border-radius: 10px;
+    margin-top: 5px;
 }
 
 .borrow-title {
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #e9e6e6;
     height: 25px;
     margin-left: 20px;
 }
@@ -178,7 +287,7 @@
 }
 
 .voucher-title {
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #e9e6e6;
     height: 25px;
     margin-left: 20px;
 }
@@ -192,7 +301,7 @@
 }
 
 .void-title {
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #e9e6e6;
     height: 25px;
     margin-left: 20px;
 }
@@ -220,7 +329,7 @@
 }
 
 .ticket-title {
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #e9e6e6;
     height: 25px;
     margin-left: 20px;
 }
@@ -252,22 +361,48 @@
 .redemption-container {
     display: flex;
     flex-direction: column;
-    margin-top: 395px;
+    margin-top: 1270px;
 }
 
 .redeem-border {
     
-    border: 2px solid gray;
+    border: 2px solid #e9e6e6;
     border-radius: 8px;
-    height: 135px;
-    width: 78%;
+    height: 100%;
+    width: 100%;
     margin-left: 0px;
     margin-top: 0px;
 }
 
+.redeem-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.redeem-container3{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.redeem-container2{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.redeem-container1{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
 .labellevel3title{
     margin-left: 21px;
-    font-size: 15px;
+    font-size: 15px; 
 }
 
 .labellevel2title {
@@ -281,33 +416,41 @@
 }
 
 .inputlevel3input{
-    margin-left: 15px;
+    margin-left: 0px;
     height: 30px;
-    width: 100px;
+    width: 98%;
     border-radius: 10px;
 }
 
 .inputlevel2input {
-    margin-left: 15px;
+    margin-left: 0px;
     height: 30px;
-    width: 100px;
+    width: 98%;
     border-radius: 10px;
 }
 
 .inputlevel1input {
-    margin-left: 15px;
+    margin-left: 0px;
     height: 30px;
-    width: 100px;
+    width: 98%;
     border-radius: 10px;
+     margin-bottom: 15px;
 }
 
+
 .void-border {
-    border: 2px solid gray;
+    border: 2px solid #e9e6e6;
     border-radius: 8px;
-    height: 135px;
-    width: 78%;
+    height: 100%;
+    width: 100%;
     margin-left: 0px;
     margin-top: 15px;
+}
+.void-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
 }
 
 .borrow-comp-container{
@@ -316,21 +459,35 @@
 }
 
 .borrow-border {
-    border: 2px solid gray;
+    border: 2px solid #e9e6e6;
     border-radius: 8px;
-    height: 135px;
-    width: 78%;
+    height: 100%;
+    width: 100%;
     margin-left: 0px;
     margin-top: -5px;
 }
 
+.borrow-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
 .comp-border {
-    border: 2px solid gray;
+    border: 2px solid #e9e6e6;
     border-radius: 8px;
-    height: 135px;
-    width: 78%;
+    height: 100%;
+    width: 100%;
     margin-left: 0px;
     margin-top: 15px;
+}
+
+.comp-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
 }
 
 .voucher-ticket-container {
@@ -339,26 +496,40 @@
 }
 
 .voucher-border {
-    border: 2px solid gray;
+    border: 2px solid #e9e6e6;
     border-radius: 8px;
-    height: 135px;
-    width: 78%;
+    height: 100%;
+    width: 100%;
     margin-left: 0px;
     margin-top: -5px;
 }
 
+.voucher-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
 .ticket-border {
-    border: 2px solid gray;
+    border: 2px solid #e9e6e6;
     border-radius: 8px;
-    height: 135px;
-    width: 78%;
+    height: 100%;
+    width: 100%;
     margin-left: 0px;
     margin-top: 15px;
 }
 
+.ticket-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
 .two-buttons {
     margin-top: 10px;
-    margin-left: -100px;
+    display: flex;
+    justify-content: center;
 }
 
 .save-settings {
